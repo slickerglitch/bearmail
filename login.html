@@ -4,27 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Email Client</title>
-  <link rel="stylesheet" href="basicStyling.css">
-  <link rel="stylesheet" href="login.css">
+  <title>Bear Mail</title>
+  <link rel="stylesheet" href="styling/basic.css">
+  <!-- <link rel="stylesheet" href="styling/login.css"> -->
 </head>
 
 <body>
-  <div id="app">
-   <div class="container">
-    <div class="login">
-      <h2>Login:</h2>
-      <form id="login-form">
-         <input type="email" id="email" placeholder="Email" required>
-         <input type="password" id="password" placeholder="Password" required>
-         <button class="button" role="button">Login</button>
-      </form>
+   <div id="app">
+      <h1>Bear Mail</h1>
+      <h2>A bare necessities email client</h2>
+      <div class="container">
+         <div class="login">
+            <h3>Login:</h3>
+            <form id="login-form">
+               <input type="email" id="email" placeholder="Email" required>
+               <input type="password" id="password" placeholder="Password" required>
+               <button class="button" role="button">Login</button>
+            </form>
+         </div>
+      </div>
    </div>
-   </div>
-    </div>
-    <!-- <div class="compose" style="display:none;"> Compose here </div>
-    <div class="inbox" style="display:none;">Inbox here </div> -->
-  </div>
-  <script src="app.js"></script>
+   <!-- <div class="compose" style="display:none;"> Compose here </div>
+   <div class="inbox" style="display:none;">Inbox here </div> -->
+   <script src="app.js"></script>
 </body>
 </html>
