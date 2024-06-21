@@ -1,4 +1,4 @@
-## Creating my own email client, starting with just the bare necessities.
+## Creating my own email client, starting with the bare necessities.
 
 ![Screenshot 2024-06-20 221941](https://github.com/slickerglitch/bearmail/assets/12770296/43071811-3262-4da0-b28f-ae193ddb95cf) 
 
