@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bear Mail</title>
+    <link rel="stylesheet" href="basicStyling.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Bear Mail</h1>
+        <h2>A bare necessities email client</h2>
+        <div class="compose">
+            <h2>Compose:</h2>
+            <form id="email-form">
+                <input type="email" id="to" placeholder="To" required>
+                <input type="text" id="subject" placeholder="Subject" required>
+                <textarea id="body" placeholder="Body" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="inbox">
+            <h2>Inbox</h2>
+            <div id="emails"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
