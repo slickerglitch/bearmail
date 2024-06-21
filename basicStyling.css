@@ -46,11 +46,12 @@ form input, form textarea {
   border: none;
  }
  
- .button-send { 
+ .button { 
+   margin-top: 12px;
    background-color: palegoldenrod;
    border: 1px solid rgba(27, 31, 35, .15);
    border-radius: 6px;
-   box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+   box-shadow: rgba(46, 38, 36, .1) 0 1px 0;
    box-sizing: border-box;
    display: inline-block;
    font-family: "Lucida Console", Monaco, monospace;
@@ -62,7 +63,6 @@ form input, form textarea {
    text-align: center;
    text-decoration: none;
 }
-
-.button-send:hover {
+.button:hover {
    text-decoration: underline;
 }
