@@ -12,13 +12,16 @@ body {
 }
 
 .compose, .inbox {
-   margin-top: 20px;
-   margin-bottom: 0px; 
+   margin-top: 0px;
+   margin-bottom: 5px; 
 }
 
 form {
    display: flex;
    flex-direction: column;
+   font-family: "Lucida Console", Monaco, monospace;
+   color: rgb(46, 38, 36);
+   font-size: medium; 
 }
 
 form input, form textarea {
@@ -26,6 +29,8 @@ form input, form textarea {
    margin-top: 10px;
    padding: 10px;
    font-size: 16px;
+   font-family: "Lucida Console", Monaco, monospace;
+   color: rgb(46, 38, 36); 
 }
 
 #emails {
